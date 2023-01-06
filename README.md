@@ -1,5 +1,6 @@
 # PROJE-1
-Insertion Sort
+## Insertion Sort
+---
 [22,27,16,2,18,6] dizisini Insertion Sort algoritması ile çalıştırırsak; dizinin 2.elemanı yani 27 başlangıç elemanı seçilir. 27 ile 22 kıyaslanıp küçükse soluna büyükse sağına yazılır. Buradaki durumda büyük o yüzden sağda kalır.
 
 Dizinin 3.elemanı olan 16, önce 27 ile sonra 22 ile kıyaslanır. Küçük olduğu için sola yazılır. Yeni dizi [16,22,27,2,18,6] olur.
@@ -14,7 +15,8 @@ Dizinin son elamanı olan 6 da kıyaslanıp yazılır. Böylelikle [2,6,16,18,22
 
 Big O Notation = İşlem sayısı n, n-1, n-2...1 şeklinde olacağından, işlem sayısı toplamı n.(n+1)/2; dominant faktörü n²'dir. O(n²)
 
-Selection Sort
+## Selection Sort
+---
 [7,3,5,8,2,9,4,15,6] dizisini Selection Sort algoritması ile çalıştırdığımızda ilk 4 adımı:
 
 En küçüğü bulup baştaki elemanla yer değiştirerek çalıştığı için;
